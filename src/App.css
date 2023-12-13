@@ -41,6 +41,11 @@
   }
 }
 
+.align-serch-center {
+  text-align: center !important
+  }
+
+
 .uil-d-block {
   display: block;
 }

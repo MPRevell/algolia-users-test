@@ -2,7 +2,7 @@ import type { User } from "../types";
 
 function UserCard({ user }: { user: User }) {
   return (
-    <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
+    <div className="flex flex-col overflow-hidden rounded border bg-white dark:bg-xenon-900 dark:border-grey-700">
       <a
         href="#"
         className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
@@ -15,15 +15,15 @@ function UserCard({ user }: { user: User }) {
         />
       </a>
       <div className="flex flex-1 flex-col p-4 sm:p-6">
-        <h2 className="mb-2 text-lg font-semibold text-xenon-600">
+        <h2 className="mb-2 text-lg font-semibold text-xenon-600 dark:text-white">
           <a
             href="#"
-            className="transition duration-100 hover:text-indigo-500 active:text-indigo-600 font-sora text-xenon-600 text-l font-bold mb-4"
+            className="transition duration-100 hover:text-indigo-500 active:text-indigo-600 font-sora text-xenon-600 dark:text-white text-l font-bold mb-4"
           >
             {user.name}
           </a>
         </h2>
-        <p className="mb-8 text-grey-700 font-inter">
+        <p className="mb-8 text-grey-700 dark:text-grey-200 font-inter">
           {user.company.catchPhrase}
         </p>
         <div className="mt-auto flex items-end justify-between">
@@ -37,10 +37,12 @@ function UserCard({ user }: { user: User }) {
               />
             </div>
             <div>
-              <span className="block font-sora text-grey-900">
+              <span className="block font-sora text-grey-900 dark:text-white">
                 {user.username}
               </span>
-              <span className="block text-sm text-gray-400">{user.email}</span>
+              <span className="block text-xs text-gray-400 dark:text-grey-200">
+                {user.email}
+              </span>
             </div>
           </div>
           <a

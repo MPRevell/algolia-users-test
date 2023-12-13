@@ -51,9 +51,9 @@ function Header({
       </nav>
       <span
         onClick={toggleTheme}
-        className="capitalize cursor-pointer capitalize hidden rounded-lg  px-8 py-3 text-center text-sora text-sm font-semibold outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring md:text-base lg:inline-block"
+        className="capitalize cursor-pointer capitalize hidden rounded-lg  px-8 py-3 text-center text-sora text-sm font-semibold outline-none ring-indigo-300 transition duration-100 dark:bg-xenon-600 dark:text-white hover:bg-gray-300 focus-visible:ring md:text-base lg:inline-block"
       >
-        Theme: {theme}
+        {theme} Theme
       </span>
       <button
         type="button"
