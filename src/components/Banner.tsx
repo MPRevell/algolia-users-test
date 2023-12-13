@@ -28,7 +28,12 @@ function Banner({ users, setFilteredUsers }: BannerProps) {
       <p className="mx-auto max-w-screen-md text-center text-grey-700 md:text-lg font-inter">
         Powering Discovery for your world, search users below...
       </p>
-      <input placeholder="Search..." value={search} onChange={handleChange} />
+      <input
+        className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+        placeholder="Search..."
+        value={search}
+        onChange={handleChange}
+      />
     </div>
   );
 }
