@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../images/algolia-icon.svg";
 import Logo from "./Logo";
 
 function Header({
