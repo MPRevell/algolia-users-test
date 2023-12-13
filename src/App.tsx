@@ -11,7 +11,7 @@ import { api } from "./utils";
 function App() {
   const [users, setUsers] = useState<User[]>([]);
   const [filteredUsers, setFilteredUsers] = useState<User[]>([]);
-  const [theme, setTheme] = useState<"dark" | "light">("light");
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
   const [animationParent] = useAutoAnimate();
 
   useEffect(() => {
