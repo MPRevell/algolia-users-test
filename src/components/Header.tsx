@@ -14,35 +14,37 @@ function Header({
   };
 
   return (
-    <header className="flex items-center justify-between py-4 md:py-8   px-4 md:px-8">
+    <header className="flex items-center justify-between py-4 md:py-8 px-4 md:px-8 bg-white dark:bg-xenon-900">
       <a
         href="/"
-        className="inline-flex font-sora items-center gap-2.5 text-2xl font-bold text-grey-900 md:text-3xl"
+        className="inline-flex font-sora items-center gap-2.5 text-2xl font-bold text-grey-900 dark:text-white md:text-3xl"
         aria-label="logo"
       >
-        {/* <img src={logo} className=" text-red-500" /> */}
-        <Logo className="fill-red-500 dark:fill-yellow-300 w-4 h-4" />
+        <Logo className="fill-xenon-900 dark:fill-white" />
         algolia
       </a>
       <nav className="hidden gap-12 lg:flex">
-        <a href="#" className="text-lg font-sora text-xenon-600">
+        <a
+          href="#"
+          className="text-lg font-sora text-xenon-600 dark:text-white transition duration-100 hover:text-xenon-400 dark:active:text-indigo-700"
+        >
           Platform
         </a>
         <a
           href="#"
-          className="text-lg font-sora text-xenon-600 transition duration-100 hover:text-xenon-400 active:text-indigo-700"
+          className="text-lg font-sora text-xenon-600 dark:text-white transition duration-100 hover:text-xenon-400 active:text-indigo-700"
         >
           Pricing
         </a>
         <a
           href="#"
-          className="text-lg font-sora text-xenon-600 transition duration-100 hover:text-xenon-400 active:text-indigo-700"
+          className="text-lg font-sora text-xenon-600 dark:text-white transition duration-100 hover:text-xenon-400 active:text-indigo-700"
         >
           Developers
         </a>
         <a
           href="#"
-          className="text-lg font-sora text-xenon-600 transition duration-100 hover:text-xenon-400 active:text-indigo-700"
+          className="text-lg font-sora text-xenon-600 dark:text-white transition duration-100 hover:text-xenon-400 active:text-indigo-700"
         >
           Resources
         </a>

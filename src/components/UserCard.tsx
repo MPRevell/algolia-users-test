@@ -45,7 +45,7 @@ function UserCard({ user }: { user: User }) {
           </div>
           <a
             href={`mailto:${user.email}`}
-            className="rounded border px-2 py-1 text-sm text-gray-500"
+            className="rounded border px-2 py-1 text-sm text-gray-500 dark:border-xenon-400 dark:text-grey-200"
           >
             Contact
           </a>

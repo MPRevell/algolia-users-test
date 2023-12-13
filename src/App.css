@@ -40,3 +40,275 @@
     transform: rotate(360deg);
   }
 }
+
+.uil-d-block {
+  display: block;
+}
+.uil-d-inline-block {
+  display: inline-block;
+}
+.uil-m-0 {
+  margin: 0;
+}
+.uil-mt-0 {
+  margin-top: 0;
+}
+.uil-mb-8 {
+  margin-bottom: 8px;
+}
+.uil-p-0 {
+  padding: 0;
+}
+.uil-color-xenon-600 {
+  color: var(--xenon-600, #003dff);
+}
+@media (min-width: 960px) {
+  .md\:uil-gcstart-2 {
+    grid-column-start: 2;
+  }
+}
+@media (min-width: 960px) {
+  .md\:uil-gcend-8 {
+    grid-column-end: 8;
+  }
+}
+@media (min-width: 960px) {
+  .md\:uil-w-100p {
+    width: 100%;
+  }
+}
+.uil-ff-sora {
+  font-family: Sora, Arial, sans-serif;
+}
+.uil-fsz-14 {
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .lg\:uil-fsz-16 {
+    font-size: 16px;
+  }
+}
+.uil-fw-semibold {
+  font-weight: 600;
+}
+.uil-lsp-big {
+  letter-spacing: 1px;
+}
+@media (min-width: 960px) {
+  .md\:uil-ta-left {
+    text-align: left;
+  }
+}
+.uil-tt-upper {
+  text-transform: uppercase;
+}
+.ff-sora {
+  font-family: Sora, Arial, sans-serif;
+}
+/*! CSS Used from: Embedded */
+
+.no-outlines *:focus {
+  outline: 0;
+}
+/*! CSS Used from: Embedded */
+.css-1hb9wbi {
+  --bg-size: 400;
+  background-image: linear-gradient(to right, #1e59ff, #0db7eb, #ceff00);
+  -webkit-background-position: 0% 0%;
+  background-position: 0% 0%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: none;
+  animation: none;
+}
+.css-1hb9wbi::selection {
+  background: #003dff;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+.css-1hb9wbi {
+  --bg-size: 400;
+  background-image: linear-gradient(to right, #1e59ff, #0db7eb, #ceff00);
+  -webkit-background-position: 0% 0%;
+  background-position: 0% 0%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: none;
+  animation: none;
+}
+.css-1hb9wbi::selection {
+  background: #003dff;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+.css-3y689g {
+  --bg-size: 400;
+  background-image: linear-gradient(
+    to right,
+    #1e59ff,
+    #0db7eb,
+    #ceff00,
+    #0db7eb,
+    #1e59ff
+  );
+  -webkit-background-position: 0% 0%;
+  background-position: 0% 0%;
+  -webkit-background-size: calc(var(--bg-size) * 1%) 100%;
+  background-size: calc(var(--bg-size) * 1%) 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: move-bg 10s linear infinite;
+  animation: move-bg 10s linear infinite;
+}
+.css-3y689g::selection {
+  background: #003dff;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+.css-3y689g {
+  --bg-size: 400;
+  background-image: linear-gradient(
+    to right,
+    #1e59ff,
+    #0db7eb,
+    #ceff00,
+    #0db7eb,
+    #1e59ff
+  );
+  -webkit-background-position: 0% 0%;
+  background-position: 0% 0%;
+  -webkit-background-size: calc(var(--bg-size) * 1%) 100%;
+  background-size: calc(var(--bg-size) * 1%) 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: move-bg 10s linear infinite;
+  animation: move-bg 10s linear infinite;
+}
+.css-3y689g::selection {
+  background: #003dff;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+.css-3y689g {
+  --bg-size: 400;
+  background-image: linear-gradient(
+    to right,
+    #1e59ff,
+    #0db7eb,
+    #ceff00,
+    #0db7eb,
+    #1e59ff
+  );
+  -webkit-background-position: 0% 0%;
+  background-position: 0% 0%;
+  -webkit-background-size: calc(var(--bg-size) * 1%) 100%;
+  background-size: calc(var(--bg-size) * 1%) 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: move-bg 10s linear infinite;
+  animation: move-bg 10s linear infinite;
+}
+.css-3y689g::selection {
+  background: #003dff;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+
+@-webkit-keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  to {
+    -webkit-background-position: calc(var(--bg-size) * 1%) 0;
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  100% {
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  100% {
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@-webkit-keyframes move-bg {
+  100% {
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}
+@keyframes move-bg {
+  100% {
+    background-position: calc(var(--bg-size) * 1%) 0;
+  }
+}

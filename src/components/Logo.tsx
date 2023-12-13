@@ -8,7 +8,7 @@ function Logo({ className }: { className: string }) {
       fillRule="evenodd"
       clipRule="evenodd"
       viewBox="0 0 512 512.346"
-      className="w-4 h-4"
+      className="w-6 h-6"
     >
       <path
         className={className}
