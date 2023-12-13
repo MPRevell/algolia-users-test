@@ -4,6 +4,7 @@ import { api } from "./utils";
 import type { User } from "./types";
 import { useEffect, useState } from "react";
 import UserCard from "./components/UserCard";
+import Header from "./components/Header";
 
 function App() {
   const [users, setUsers] = useState<User[]>([]);
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-10 md:mb-16">
