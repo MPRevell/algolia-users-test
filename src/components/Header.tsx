@@ -1,6 +1,18 @@
 import React from "react";
+import logo from "../images/algolia-icon.svg";
+import Logo from "./Logo";
 
-function Header() {
+function Header({
+  theme,
+  setTheme,
+}: {
+  theme: "dark" | "light";
+  setTheme: (theme: "dark" | "light") => void;
+}) {
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
     <header className="flex items-center justify-between py-4 md:py-8   px-4 md:px-8">
       <a
@@ -8,7 +20,8 @@ function Header() {
         className="inline-flex font-sora items-center gap-2.5 text-2xl font-bold text-grey-900 md:text-3xl"
         aria-label="logo"
       >
-        <img src={"../images/algolia-icon.png"} />
+        {/* <img src={logo} className=" text-red-500" /> */}
+        <Logo className="fill-red-500 dark:fill-yellow-300 w-4 h-4" />
         algolia
       </a>
       <nav className="hidden gap-12 lg:flex">
@@ -17,7 +30,7 @@ function Header() {
         </a>
         <a
           href="#"
-          className="text-lg  font-sora text-xenon-600 transition duration-100 hover:text-xenon-400 active:text-indigo-700"
+          className="text-lg font-sora text-xenon-600 transition duration-100 hover:text-xenon-400 active:text-indigo-700"
         >
           Pricing
         </a>
@@ -34,8 +47,11 @@ function Header() {
           Resources
         </a>
       </nav>
-      <span className="cursor-pointer capitalize hidden rounded-lg  px-8 py-3 text-center text-sora text-sm font-semibold outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring md:text-base lg:inline-block">
-        I should make this toggle theme{" "}
+      <span
+        onClick={toggleTheme}
+        className="capitalize cursor-pointer capitalize hidden rounded-lg  px-8 py-3 text-center text-sora text-sm font-semibold outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring md:text-base lg:inline-block"
+      >
+        Theme: {theme}
       </span>
       <button
         type="button"
